@@ -59,9 +59,11 @@
     text-align:center; 
 }
 
-.Home .voices .list-group .row .transcribe,
-.Home .voices .list-group .row .transcribe:hover{
+.Home .voices .list-group .row .transcribe {
     background: linear-gradient(90deg, #ebc959 0%, rgba(255, 233, 160, 0.7) 100%);
+}
+.Home .voices .list-group .row .transcribe:hover{
+    background: #ebc959;
 }
 
 .Home .voices .list-group .row .result:hover {
