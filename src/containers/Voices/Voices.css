@@ -1,0 +1,22 @@
+.Voices {
+    width: 50%;
+    font-family: "Spartan", sans-serif;
+}
+
+.Voices .form-group {
+    align-items: center;
+    padding-bottom: 15px;
+}
+  
+.Voices .form-group textarea {
+    height: 10cm;
+    font-size: 15px;
+}
+
+.Voices form button {
+    display: block;
+    text-align: center!important;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    width: 30%;
+}

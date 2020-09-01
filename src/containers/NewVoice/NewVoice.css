@@ -1,0 +1,25 @@
+.NewVoice {
+  width: 50%;
+  font-family: "Spartan", sans-serif;
+}
+
+.NewVoice form {
+  padding-bottom: 15px;
+}
+  
+.NewVoice form textarea {
+  height: 300px;
+  font-size: 24px;
+}
+
+.NewVoice form button {
+  display: block;
+  text-align: center!important;
+  margin: 0 auto;
+  margin-bottom: 5px;
+  width: 30%;
+}
+
+.NewVoice form button:disabled {
+  cursor: no-drop;
+}

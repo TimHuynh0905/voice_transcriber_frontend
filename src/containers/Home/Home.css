@@ -1,0 +1,101 @@
+.Home {
+    font-family: "Spartan", sans-serif;
+}
+.Home .lander {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.Home .lander h2, 
+.Home .voices h2 {
+    font-weight: 600;
+    text-align: center;
+    color:green;
+}
+
+.Home .lander p {
+    color: #999;
+}
+
+.Home .lander div a:first-child {
+    margin-right: 20px;
+}
+
+.Home .lander .how-it-works {
+    margin-top: 3cm;
+    margin-bottom: 1cm;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+    font-weight: 700;
+}
+
+.Home .lander .how-it-works:hover {
+    cursor: pointer;
+    background: linear-gradient(90deg, rgb(78, 191, 88) 0%, rgba(158, 213, 179, 0.7) 100%);
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.8);
+}
+
+.Home .lander .how-it-works-info1,
+.Home .lander .how-it-works-info2 {
+    border:none;
+}
+.Home .lander .how-it-works-info2 {
+    margin-top: 30px;
+}
+
+.Home .voices {
+    margin-top: 3cm;
+}
+
+.Home .voices .list-group .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.Home .voices .list-group .row .result-box{
+    text-align:center; 
+}
+
+.Home .voices .list-group .row .transcribe,
+.Home .voices .list-group .row .transcribe:hover{
+    background: linear-gradient(90deg, #ebc959 0%, rgba(255, 233, 160, 0.7) 100%);
+}
+
+.Home .voices .list-group .row .result:hover {
+    background: linear-gradient(90deg, #30caf9 0%, rgba(188, 235, 254, 0.7) 100%);
+    color: white;
+}
+
+.Home .voices .list-group .row .inactive,
+.Home .voices .list-group .row .inactive:hover {
+    cursor: no-drop;
+    background: linear-gradient(90deg, #ebc959 0%, rgba(255, 233, 160, 0.7) 100%);
+}
+
+
+.Home .voices .list-group .list-group-item {
+    border-radius: 10px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+    margin-top: 0.5cm;
+}
+
+.Home .voices .list-group .list-group-item:hover,
+.Home .voices .list-group .list-group-item:active {
+    background: linear-gradient(90deg, #30caf9 0%, rgba(188, 235, 254, 0.7) 100%);
+    cursor: pointer;
+}
+
+.Home .voices .create-voice-btn:hover {
+    background: linear-gradient(90deg, rgb(78, 191, 88) 0%, rgba(158, 213, 179, 0.7) 100%)!important;
+}
+
+.Home .voices h4 {
+    font-size: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin:0;
+}

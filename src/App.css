@@ -1,38 +1,30 @@
-.App {
-  text-align: center;
+.navbar {
+    font-family: "Spartan", sans-serif;
+    display: flex;
+    background: linear-gradient(90deg, rgb(11, 147, 22) 0%, rgba(65, 177, 108, 0.7) 100%);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar .navbar-brand a {
+    color: white;
+    font-weight: 700;
+    margin-left: 20px!important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar .navbar-brand a:hover,
+.navbar .navbar-brand a:active {
+    color: rgb(203, 203, 203);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.navbar .navbar-collapse .navbar-nav .nav-item {
+    margin-right: 0.5cm;
+    color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar .navbar-collapse .navbar-nav .nav-item:hover,
+.navbar .navbar-collapse .navbar-nav .nav-item:active,
+.navbar .navbar-collapse .navbar-nav .nav-item.active {
+    color: rgb(203, 203, 203);
+    font-weight: 700;
+    cursor: pointer;
+    /* text-align: right; */
 }
